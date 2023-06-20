@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Teamable</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <meta charset = "utf-8">
+        <script src="node_modules/validator/validator.min.js"></script>
+        <link rel="stylesheet" href="node_modules/Datepicker.js/dist/css/datepicker.material.css">
+        <script src="node_modules/Datepicker.js/dist/datepicker.js"></script>
+
+    </head>
+
+    <body>
+        <div id="display-view">
+
+            <h1>User Profile</h1>
+            <img src="profile.jpg">
+        
+            <span>Name:</span><b id="name">Theerthani Malluri</b>
+            <hr>
+
+            <span>Email:</span><b id="email">theerthanimalluri@gmail.com</b>
+            <hr>
+
+            <span>Interests:</span><b id="interests">coding</b>
+            <hr>
+
+            <button onclick="handleEditProfile()">Edit Profile</button>
+        </div>
+
+        <div id="edit-view">
+
+            <h1>User Profile</h1>
+            <img src="profile.jpg">
+        
+            <span>Name:</span>
+            <input type="text" id="input-name" placeholder="Theerthani Malluri">
+            <hr>
+
+            <span>Email:</span>
+            <input type="text" id="input-email" placeholder="theerthanimalluri@gmail.com">
+            <hr>
+
+            <span>Interests:</span>
+            <input type="text" id="input-interests" placeholder="coding">
+            <hr>
+
+            <span>Birthday date:</span>
+            <input type="text" id="birthday">
+            <hr>
+
+            
+            
+            <button onclick="handleUpdateProfile()">Update Profile</button>
+
+        </div>
+        
+    </body>
+</html>
