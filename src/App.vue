@@ -41,8 +41,8 @@ export default {
     data() {
         return {
             image: image,
-            name: "Anna Smith",
-            email: "anna.smith@example.com",
+            name: "Theerthani Malluri",
+            email: "theerthanimalluri@gmail.com",
             interests: "coding",
             isEditMode: false
         }
